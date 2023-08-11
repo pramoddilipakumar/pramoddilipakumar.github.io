@@ -1,0 +1,128 @@
+# Site
+repository: pramoddilipakumar.github.io
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: PRAMOD DILIPAKUMAR
+title: DEVOPS ENGINEER
+email: pramod.dilipakumar@gmail.com
+website: wwww.medium.com/@pramod.dilipakumar
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+twitter_username:
+github_username: pramoddilipakumar
+instagram_username:
+linkedin_username: pramoddevops
+
+# Additional icon links
+additional_links:
+  - title: personal blog
+    icon: fas fa-globe
+    url: https://www.medium.com/@pramod.dilipakumar
+  # - title: another link
+  #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+  #   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name is Pramod and I'm a Devops Engineer with 4 years of experience.
+  As an accomplished professional with over 4 years of experience in the IT industry, I have honed my expertise in cloud technologies and DevOps practices. I am dedicated to leveraging cutting-edge tools and technologies to develop scalable and efficient solutions that drive meaningful outcomes.
+  
+  Technical Skills:
+    - Cloud Platforms: AWS, Azure
+    - Programming: Python
+    - DevOps Tools: Git, Maven, SonarQube, Nexus, Jenkins, Ansible, Docker, Kubernetes.
+  
+  Throughout my career, I have had the opportunity to work on diverse projects that have honed my technical skills and allowed me to collaborate with cross-functional teams. I thrive in dynamic and fast-paced environments, always seeking to stay ahead of the curve by keeping myself updated with the latest industry trends.
+  
+  As a certified Azure professional and with extensive hands-on experience in AWS, I take pride in architecting robust cloud infrastructures that ensure seamless operations and high availability. Additionally, my proficiency in DevOps tools empowers me to implement automated workflows and continuous integration/continuous deployment (CI/CD) pipelines, enabling rapid and reliable software delivery.
+  
+  I believe in fostering a collaborative work environment and thrive on exchanging knowledge with my colleagues to collectively achieve success. I am always excited about exploring new opportunities to learn and grow.
+  
+  If you're looking for someone who is dedicated, innovative, and constantly driven to make a difference, let's connect! I am open to networking, collaboration, and discussing potential opportunities.
+
+content:
+  - title: Work Experience and Key Achievements # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        link: github.com/pramoddilipkumar
+        # link_text: Project Website
+        additional_links:
+          - title: SIMS Java-based web application
+            icon: fab fa-github
+            url: github.com/sproogen/modern-resume-theme
+          # - title: Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        description: | # this will include new lines to allow paragraphs
+          
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: HAEGL Technologies Pvt Ltd.
+        link: haegl.in
+        sub_title: Devops Engineer
+        caption: September 2019 - Present
+        quote: >
+          In the realm of DevOps, we sculpt technology into solutions that drive efficiency, amplify reliability, and foster a culture of constant evolution.
+        description: | # this will include new lines to allow paragraphs
+            - Led the design, architecture, and implementation of the ERP system, leveraging AWS services for scalability and reliability.
+            - Utilized Git for version control, enabling efficient collaboration and code management within the development team.
+            - Employed Maven for project build and dependency management, ensuring consistent and reliable builds.
+            - Conducted code reviews and implemented SonarQube for continuous code quality assessment and improvement.
+            - Established a robust CI/CD pipeline using Jenkins, enabling automated testing, deployment, and monitoring.
+            - Collaborated closely with the performance testing team to identify bottlenecks and optimize system performance.
+            - Developed custom automation tools using Python, enhancing operational efficiency by reducing manual intervention by 30%.
+            - Managed end-to-end CI/CD pipelines, enabling automated software delivery and integration, reducing deployment time by 40%.
+            - Led infrastructure management in AWS, optimizing resource allocation and ensuring high availability of services.
+            - Provided 24x7 on-call support, swiftly addressing urgent critical issues and maintaining high service availability.
+            - Successfully delivered the ERP project ahead of schedule, meeting all functional requirements and quality standards.
+            - Reduced deployment time by 40% through the implementation of Docker-based containerization and Ansible automation.
+            - Improved code quality by 30% through continuous integration and code quality assessments using SonarQube.
+            - Played a pivotal role in optimizing system performance, leading to a 20% increase in application responsiveness under heavy loads.
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: BVBCET, Hubli
+        sub_title: Bachelor of Engineering
+        quote: >
+          Established in 1947 with a motto of Creating Value, Leveraging Knowledge. BVBCET is one of the oldest higher education institutions in India, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university.
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in devops engineering, some of my other interests and hobbies are:
+      - Reading novels and non-fictional books
+      - Playing cricket. Just like Virat Kohli I believe I'm a very deceptive bowler
+      - Watching movies. I like to debate on movie topics 
+      - I'm heavy tea drinker. 
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
