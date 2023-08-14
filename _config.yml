@@ -39,17 +39,16 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Pramod and I'm a Devops Engineer with 4 years of experience.
-  As an accomplished professional with over 4 years of experience in the IT industry, I have honed my expertise in cloud technologies and DevOps practices. I am dedicated to leveraging cutting-edge tools and technologies to develop scalable and efficient solutions that drive meaningful outcomes.
+  Hello, I'm Pramod, a seasoned DevOps Engineer with 4 years of hands-on experience. With a track record spanning over 4 years in the IT industry, I've honed my expertise in cloud technologies and DevOps practices. My dedication lies in harnessing cutting-edge tools and technologies to create scalable, efficient solutions that drive impactful outcomes.
   
   Technical Skills:
     - Cloud Platforms: AWS, Azure
-    - Programming: Python
+    - Programming: Python, Bash, YAML
     - DevOps Tools: Git, Maven, SonarQube, Nexus, Jenkins, Ansible, Docker, Kubernetes.
   
-  Throughout my career, I have had the opportunity to work on diverse projects that have honed my technical skills and allowed me to collaborate with cross-functional teams. I thrive in dynamic and fast-paced environments, always seeking to stay ahead of the curve by keeping myself updated with the latest industry trends.
+  Throughout my career, I've engaged in diverse projects that sharpened my technical acumen and fostered collaboration with cross-functional teams. Thriving in dynamic, fast-paced environments, I'm committed to staying ahead of the curve by keeping myself updated with the latest industry trends.
   
-  As a certified Azure professional and with extensive hands-on experience in AWS, I take pride in architecting robust cloud infrastructures that ensure seamless operations and high availability. Additionally, my proficiency in DevOps tools empowers me to implement automated workflows and continuous integration/continuous deployment (CI/CD) pipelines, enabling rapid and reliable software delivery.
+  As a certified Azure professional with extensive AWS hands-on experience, I take pride in architecting robust cloud infrastructures for seamless operations and high availability. My proficiency in DevOps tools empowers me to execute automated workflows and implement continuous integration/continuous deployment (CI/CD) pipelines, ensuring rapid and reliable software delivery.
   
   I believe in fostering a collaborative work environment and thrive on exchanging knowledge with my colleagues to collectively achieve success. I am always excited about exploring new opportunities to learn and grow.
   
@@ -82,19 +81,21 @@ content:
           In the realm of DevOps, we sculpt technology into solutions that drive efficiency, amplify reliability, and foster a culture of constant evolution.
         description: | # this will include new lines to allow paragraphs
             - Led the design, architecture, and implementation of the ERP system, leveraging AWS services for scalability and reliability.
-            - Utilized Git for version control, enabling efficient collaboration and code management within the development team.
-            - Employed Maven for project build and dependency management, ensuring consistent and reliable builds.
-            - Conducted code reviews and implemented SonarQube for continuous code quality assessment and improvement.
-            - Established a robust CI/CD pipeline using Jenkins, enabling automated testing, deployment, and monitoring.
-            - Collaborated closely with the performance testing team to identify bottlenecks and optimize system performance.
-            - Developed custom automation tools using Python, enhancing operational efficiency by reducing manual intervention by 30%.
-            - Managed end-to-end CI/CD pipelines, enabling automated software delivery and integration, reducing deployment time by 40%.
-            - Led infrastructure management in AWS, optimizing resource allocation and ensuring high availability of services.
-            - Provided 24x7 on-call support, swiftly addressing urgent critical issues and maintaining high service availability.
-            - Successfully delivered the ERP project ahead of schedule, meeting all functional requirements and quality standards.
-            - Reduced deployment time by 40% through the implementation of Docker-based containerization and Ansible automation.
-            - Improved code quality by 30% through continuous integration and code quality assessments using SonarQube.
-            - Played a pivotal role in optimizing system performance, leading to a 20% increase in application responsiveness under heavy loads.
+            - Managed Git repositories and branches to enforce version control best practices and facilitate collaborative development.
+            - Achieved a 30% reduction in provisioning time and enhanced resource agility by implementing Infrastructure as Code using Terraform across AWS and Azure environments.
+            - Automated system configuration through Ansible playbooks, resulting in a 40% decrease in manual intervention and improved overall reliability.
+            - Orchestrated comprehensive CI/CD pipelines utilizing Jenkins, reducing deployment time by 30% for various applications across both AWS and Azure platforms.
+            - Developed Python scripts to optimize operational efficiency by streamlining routine tasks in hybrid cloud workflows.
+            - Seamlessly integrated SonarQube into software pipelines, elevating code quality analysis and maintainability for projects spanning AWS and Azure.
+            - Managed the Nexus artifact repository effectively, ensuring seamless artifact storage and versioning to enhance collaboration in complex multi-cloud setups.
+            - Designed Dockerfiles and Docker Compose configurations meticulously, ensuring consistent and reliable application deployment across AWS and Azure.
+            - Leveraged stateful application components to efficiently manage critical data and ensure system-wide consistency, enhancing the stability of multi-cloud architectures.
+            - Proficiently administered diverse databases, including MySQL, Amazon RDS, and DynamoDB, to uphold data integrity and efficient storage solutions across AWS and Azure.
+            - Implemented serverless technologies like AWS Lambda and Azure Functions, creating scalable components within the cloud architecture.
+            - Skillfully oversaw Kubernetes clusters (AWS EKS and Azure AKS), optimizing scalability and availability for microservices-based applications.
+            - Orchestrated Kubernetes deployments using meticulous YAML manifests, ensuring smooth scaling and updates for containerized services across both AWS and Azure.
+            - Monitored and maintained application health using CloudWatch, Prometheus, Grafana, Azure Monitor, and Application Insights, ensuring prompt anomaly detection and resolution.
+            - Strategically aligned AWS and Azure services to optimize multi-cloud configurations, achieving a harmonious balance between cost-effectiveness and high-performance outcomes, significantly contributing to organizational success.
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -107,11 +108,11 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in devops engineering, some of my other interests and hobbies are:
+      Beyond my devotion to DevOps engineering, I find joy in:
       - Reading novels and non-fictional books
-      - Playing cricket. Just like Virat Kohli I believe I'm a very deceptive bowler
-      - Watching movies. I like to debate on movie topics 
-      - I'm heavy tea drinker. 
+      - Playing cricket (I fancy myself a deceptive bowler like Virat Kohli)
+      - Engaging in movie debates
+      - Enjoying a cup of tea, a delightful companion to reflection.
 
 # Footer
 footer_show_references: true
