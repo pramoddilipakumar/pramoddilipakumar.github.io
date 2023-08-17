@@ -39,12 +39,12 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hello, I'm Pramod, a seasoned DevOps Engineer with 4 years of hands-on experience. With a track record spanning over 4 years in the IT industry, I've honed my expertise in cloud technologies and DevOps practices. My dedication lies in harnessing cutting-edge tools and technologies to create scalable, efficient solutions that drive impactful outcomes.
+  Hello, I'm Pramod, a seasoned DevOps Engineer with 4 years of hands-on experience. With a track record spanning over 5 years in the IT industry, I've honed my expertise in cloud technologies and DevOps practices. My dedication lies in harnessing cutting-edge tools and technologies to create scalable, efficient solutions that drive impactful outcomes.
   
   Technical Skills:
     - Cloud Platforms: AWS, Azure
     - Programming: Python, Bash, YAML
-    - DevOps Tools: Git, Maven, SonarQube, Nexus, Jenkins, Ansible, Docker, Kubernetes.
+    - DevOps Tools: Git, Maven, SonarQube, Nexus, Jenkins, Terraform, Ansible, Docker, Kubernetes.
   
   Throughout my career, I've engaged in diverse projects that sharpened my technical acumen and fostered collaboration with cross-functional teams. Thriving in dynamic, fast-paced environments, I'm committed to staying ahead of the curve by keeping myself updated with the latest industry trends.
   
